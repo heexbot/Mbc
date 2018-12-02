@@ -8,7 +8,7 @@ client.on('ready', () => {
 
   console.log(`Logged in as ${client.user.tag}!`);
 
-client.user.setGame(`Five Bc l FBc`,'https://www.twitch.tv/MeeRcY')
+client.user.setGame(`.`,'https://www.twitch.tv/MeeRcY')
 
 });
 
@@ -20,7 +20,7 @@ client.user.setGame(`Five Bc l FBc`,'https://www.twitch.tv/MeeRcY')
  
 
 client.on('message', message => {
-    var prefix = 'F'; // هنا تقدر تغير البرفكس
+    var prefix = 'M'; // هنا تقدر تغير البرفكس
 var command = message.content.split(" ")[0];
 if(command == prefix + 'Bc') { // الكوماند !bc
     var args = message.content.split(' ').slice(1).join(' ');
@@ -94,11 +94,11 @@ message.delete();
 
 
 
-var prefix = "d";
 
-var adminprefix = "Fbc";
 
-const developers = ["323888904602124299","441554686399741962"]
+var adminprefix = "Mb";
+
+const developers = ["312309921314111498","312309921314111498"]
 
 client.on('message', message => {
 
