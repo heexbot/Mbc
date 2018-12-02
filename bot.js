@@ -22,7 +22,7 @@ client.user.setGame(`.`,'https://www.twitch.tv/MeeRcY')
 client.on('message', message => {
     var prefix = 'M'; // هنا تقدر تغير البرفكس
 var command = message.content.split(" ")[0];
-if(command == prefix + 'Bc') { // الكوماند !bc
+if(command == prefix + 'bc') { // الكوماند !bc
     var args = message.content.split(' ').slice(1).join(' ');
 
 
