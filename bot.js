@@ -98,7 +98,7 @@ message.delete();
 
 var adminprefix = "Mb";
 
-const developers = ["312309921314111498","312309921314111498"]
+const developers = ["312309921314111498"]
 
 client.on('message', message => {
 
